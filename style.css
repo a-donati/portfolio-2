@@ -43,3 +43,7 @@
       background-color: rgb(139, 243, 153);
       color: white;
   }
+  
+  a:hover {
+      opacity: 50%;
+  }
