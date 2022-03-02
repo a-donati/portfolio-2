@@ -56,3 +56,12 @@ body {
     height: 50%;
     width: 50%;
   }
+
+  .btn-primary {
+    background-color: rebeccapurple;
+  }
+
+  .btn-primary:hover {
+    background-color: rebeccapurple;
+    opacity: 50%;
+  }
