@@ -1,328 +1,621 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
     <link href="./images/favicon.ico" rel="icon" type="image/x-icon" />
-</head>
-<!-- start -->
+  </head>
+  <!-- start -->
 
-<body>
+  <body>
     <div class="container">
-        <header id="main-header">
-            <div class="row no-gutters">
-                <div class="col-lg-4 col-md-5">
-                    <img src="./images/furb-placeholder-img.png" alt="A furby with sunglasses skateboarding and leaving a rainbow trail behind them">
-                </div>
-                <div class="col-lg-8 col-md-7">
-                    <div class="d-flex flex-column">
-                        <div class="p-5 bg-dark text-white">
-                            <div class="d-flex flex-row justify-content-between align-items-center">
-                                <!-- name section -->
-                                <h1 class="display-4">Angela Donati</h1>
-                                <div class="d-none d-md-block">
-                                </div>
-                                <!-- social icons -->
-                                <div class="d-none d-md-block">
-                                    <a href="https://www.linkedin.com/in/angeladonati/" class="text-white">
-                                        <i class="fab fa-linkedin fa-3x"></i>
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="https://github.com/a-donati" class="text-white" target="_blank">
-                                        <i class="fab fa-github fa-3x"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- tagline -->
-                        <div class="p-4 bg-light">
-                            Full Stack Web Developer
-                        </div>
-                        <!-- collapsable buttons -->
-                        <div>
-                            <div class="d-flex flex-row text-white align-items-stretch text-center">
-                                <div class="port-item p-4 home" data-toggle="collapse" data-target="#home">
-                                    <i class="fas fa-home fa-2x d-block"></i>
-                                    <span class="d-none d-sm-block">Home</span>
-                                </div>
-                                <div class="port-item p-4 resume" data-toggle="collapse" data-target="#resume">
-                                    <i class="fas fa-graduation-cap fa-2x d-block"></i>
-                                    <span class="d-none d-sm-block">Resume</span>
-                                </div>
-                                <div class="port-item p-4 work" data-toggle="collapse" data-target="#work">
-                                    <i class="fas fa-folder-open fa-2x d-block"></i>
-                                    <span class="d-none d-sm-block">Projects</span>
-                                </div>
-                                <div class="port-item p-4 contact" data-toggle="collapse" data-target="#contact">
-                                    <i class="fas fa-envelope fa-2x d-block"></i>
-                                    <span class="d-none d-sm-block">Contact</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- end header -->
-
-        <!-- home -->
-        <div id="home" class="collapse show">
-            <div class="card card-body home text-white py-5">
-                <h2>Welcome to my portfolio page</h2>
-                <!-- <p>My name is Angela, I am an aspiring full stack developer. I am currently enrolled in University of
-                    New Hampshire's Full Stack Coding Bootcamp. Thanks for looking!
-                </p>
-                <small>Furby placeholder image found <a
-                        href="https://www.furaffinity.net/view/25484646/">here</a>.</small> -->
-            </div>
-            <div class="card card-body py-5">
-                <p>I am an aspiring full stack developer currently enrolled in University of New Hampshire's coding bootcamp. I have always been drawn to technology from a young age and have spent most of my life on the computer. With having my Bachelor's in Environmental Studies, I plan to combine my interest in environmental preservation with my developer skills. Thanks for looking!
-                </p>
-                <small>Furby placeholder image found <a
-                        href="https://www.furaffinity.net/view/25484646/">here</a>.</small>
-                        <hr>
-                <h3>Programming Languages & Tools
-                </h3>
-                
-                <p>
-                    <i class="fab fa-html5 fa-3x"></i>
-                    <i class="fab fa-css3-alt fa-3x"></i>
-                    <i class="fab fa-bootstrap"></i>
-                    <i class="fab fa-js-square fa-3x"></i>
-                    <i class="fab fa-node-js fa-3x"></i>
-                    <i class="fab fa-mysql fa-3x"></i>
-                    <img src="images/mysql-original-wordmark.svg" height="40px" width="40px">
-
-                </p>
-                
-                <hr>
-
-            </div>
-        </div>
-        <!-- home end -->
-
-        <!-- resume -->
-        <div id="resume" class="collapse">
-            <div class="card card-body resume text-white py-5">
-                <h2>Resume</h2>
-            </div>
-
-            <div class="card card-body py-5">
-                <h3>Education and Work History:</h3>
-                <p>
-                </p>
-                <div class="card-deck text-center">
-                    <!-- card one -->
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-title">Merrimack College</h4>
-                            <p class="card-text"><img src="./images/mc.jpeg" alt="Merrimack College Logo - A shield divided into four sections by a cross. The top left and bottom right is white, while the top right and bottom left is yellow."class="img-fluid" id="images"></p>
-                            <p class="p-2 mb-3 bg-dark text-white">BA Environmental Studies </p>
-                            <p class="p-2 mb-3 bg-dark text-white">North Andover, MA</p>
-                        </div>
-                        <div class="card-footer">
-                            <h6 class="text-muted">Graduated: 2016</h6>
-                        </div>
-                    </div>
-                    <!-- card two -->
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-title">University of New Hampshire</h4>
-                            <p class="card-text"><img src="./images/unh.png" alt="University of New Hampshire logo - a shield shape divided into two sections, the left is white, the right is blue, with 'NH' in the center. The text 'University of New Hampshire' is beneath the shield." class="img-fluid" id="images"></p>
-                            <p class="p-2 mb-3 bg-dark text-white">FullStack Coding Bootcamp </p>
-                            <p class="p-2 mb-3 bg-dark text-white">Virtual</p>
-                        </div>
-                        <div class="card-footer">
-                            <h6 class="text-muted">Estimated Completion: June 2022</h6>
-                        </div>
-                    </div>
-                    <!-- card three -->
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-title">Massachusetts DCR</h4>
-                            <p class="card-text"><img src="./images/MAseal.jpeg" alt="Massachusetts State Seal - Circle with  a blue shield in the center, a Native American stands in the interior of the shield. A white star is to the left of their head. The coat of arms is encircled by the latin text 'Sigillum Reipublicæ Massachusettensis'" class="img-fluid" id="images"></p>
-                            <p class="p-2 mb-3 bg-dark text-white">Park Ranger</p>
-                            <p class="p-2 mb-3 bg-dark text-white">Boston, MA</p>
-                        </div>
-                        <div class="card-footer">
-                            <h6 class="text-muted">2017-2022</h6>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-
-            </div>
-        </div>
-
-        <!-- work -->
-        <div id="work" class="collapse">
-            <div class="card card-body work text-white py-5">
-                <h2>My Projects</h2>
-            </div>
-
-            <section class="bg-light pt-5 pb-5 shadow-sm">
-                <div class="container">
-                  <div class="row pt-5">
-                    <div class="col-12">
-                      <h3 class="border-bottom mb-4">Projects / Repo</h3>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <!--project 1-->
-                    <div class="col-lg-4 mb-3 d-flex align-items-stretch">
-                      <div class="card">
-                        <img src="./images/travel-app-screenshot.png" class="card-img-top" alt="Card Image">
-                        <div class="card-body d-flex flex-column">
-                          <h5 class="card-title">Travel App <a href="https://github.com/a-donati/GroupProjectRepo" target="_blank"><i class="fab fa-github"></i></a></h5>
-                          <p class="card-text mb-4">App that uses an APIs to return quick country/capital stats, includes current weather forecast for the day, country's flag, capital, population, currency and official language.  </p>
-                          <a href="https://github.com/a-donati/GroupProjectRepo" target="_blank" class="btn btn-primary mt-auto align-self-start">Deployed site</a>
-                        </div>
-                      </div>
-                    </div>
-                    <!--project 2-->
-                    <div class="col-lg-4 mb-3 d-flex align-items-stretch">
-                      <div class="card">
-                        <img src="./images/pw-gen-screenshot.png" class="card-img-top" alt="Card Image">
-                        <div class="card-body d-flex flex-column">
-                          <h5 class="card-title">Password Generator <a href="https://github.com/a-donati/password-generator" target="_blank"><i class="fab fa-github"></i></a></h5>
-                          <p class="card-text mb-4">Password generator using javascript - generate a randomized password using user selected criteria</p>
-                          <a href="https://a-donati.github.io/password-generator/" target="_blank" class="btn btn-primary mt-auto align-self-start">Deployed site</a>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- project 3 -->
-                    <div class="col-lg-4 mb-3 d-flex align-items-stretch">
-                      <div class="card">
-                        <img src="./images/weather-app-screenshot.png" class="card-img-top" alt="Card Image">
-                        <div class="card-body d-flex flex-column">
-                          <h5 class="card-title">Weather Dashboard <a href="https://github.com/a-donati/weather-dashboard" target="_blank"><i class="fab fa-github"></i></a></h5>
-                          <p class="card-text mb-4">Weather dashboard that displays current forecast along with a 5 day forecast of location.</p>
-                          <a href="https://a-donati.github.io/weather-dashboard" target="_blank" class="btn btn-primary mt-auto align-self-start">Deployed site</a>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- project 4 -->
-                    <div class="col-lg-4 mb-3 d-flex align-items-stretch">
-                        <div class="card">
-                          <img src="./images/samplereadmedemo.gif" class="card-img-top" alt="Card Image">
-                          <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">README Generator <a href="https://github.com/a-donati/readme-generator" target="_blank"><i class="fab fa-github"></i></a></h5>
-                            <p class="card-text mb-4">README generator created using node.js and inquirer package. Generates basic README.md template based on user input.</p>
-                            <a href="https://github.com/a-donati/readme-generator" target="_blank" class="btn btn-primary mt-auto align-self-start">Repository</a>
-                          </div>
-                        </div>
-                      </div>
-                    <!-- project 5 -->
-                    <div class="col-lg-4 mb-3 d-flex align-items-stretch">
-                        <div class="card">
-                          <img src="./images/team-profile-generator-screenshot.png" height="200px" width="100px" class="card-img-top" alt="Card Image">
-                          <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Team Profile Generator <a href="https://github.com/a-donati/team-profile-generator" target="_blank"><i class="fab fa-github"></i></a></h5>
-                            <p class="card-text mb-4">A team profile generator created using node.js to help automate creating an employee roster. User will be prompted to enter employee information, which will be used to generate a template to display the input.</p>
-                            <a href="https://github.com/a-donati/team-profile-generator" target="_blank" class="btn btn-primary mt-auto align-self-start">Repository</a>
-                          </div>
-                        </div>
-                      </div>
-                    <!-- project 6 -->
-                    <div class="col-lg-4 mb-3 d-flex align-items-stretch">
-                        <div class="card">
-                          <img src="./images/employee-tracker.png" height="200px" width="100px" class="card-img-top" alt="Card Image">
-                          <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Employee Tracker <a href="https://github.com/a-donati/employee-tracker" target="_blank"><i class="fab fa-github"></i></a></h5>
-                            <p class="card-text mb-4">Command line application that allows the user to manage employees within their organization. The database consists of three tables, departments, roles, and employees. User is able to view and modify all employees, roles, and departments. The application uses Node.js, Inquirer, MySQL </p>
-                            <a href="https://github.com/a-donati/employee-tracker" target="_blank" class="btn btn-primary mt-auto align-self-start">Repository</a>
-                          </div>
-                        </div>
-                      </div>
-                                          <!-- project 7 -->
-                    <div class="col-lg-4 mb-3 d-flex align-items-stretch">
-                        <div class="card">
-                          <img src="./images/e-commerce-demo.gif" height="200px" width="100px" class="card-img-top" alt="Card Image">
-                          <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">E-commerce Backend <a href="https://github.com/a-donati/e-commerce-back-end" target="_blank"><i class="fab fa-github"></i></a></h5>
-                            <p class="card-text mb-4">Express.js API that uses Sequelize to interact with a MySQL database that can be used as the back end for an e-commerce website. The database includes tables for products, categories, tags and product tags. User can get, create, update and delete categories, products and tags. Project was created using node.js, express, sequelize, and MySQL.</p>
-                            <a href="https://github.com/a-donati/e-commerce-back-end" target="_blank" class="btn btn-primary mt-auto align-self-start">Repository</a>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-                </div>
-              </section>
-        </div>
-        <!-- contact -->
-        <div id="contact" class="collapse">
-            <div class="card card-body contact text-white py-5">
-                <h2>Contact</h2>
-                <!-- <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!</p> -->
-            </div>
-
-            <div class="card card-body py-5">
-                <div class="d-flex justify-content-center">
-                <div class="col">
-                    <a href="https://github.com/a-donati" class="text-muted" target="_blank">
-                        <i class="fab fa-github fa-3x"></i> Github
+      <header id="main-header">
+        <div class="row no-gutters">
+          <div class="col-lg-4 col-md-5">
+            <img
+              src="./images/furb-placeholder-img.png"
+              alt="A furby with sunglasses skateboarding and leaving a rainbow trail behind them"
+            />
+          </div>
+          <div class="col-lg-8 col-md-7">
+            <div class="d-flex flex-column">
+              <div class="p-5 bg-dark text-white">
+                <div
+                  class="d-flex flex-row justify-content-between align-items-center"
+                >
+                  <!-- name section -->
+                  <h1 class="display-4">Angela Donati</h1>
+                  <div class="d-none d-md-block"></div>
+                  <!-- social icons -->
+                  <div class="d-none d-md-block">
+                    <a
+                      href="https://www.linkedin.com/in/angeladonati/"
+                      class="text-white"
+                    >
+                      <i class="fab fa-linkedin fa-3x"></i>
                     </a>
+                  </div>
+                  <div>
+                    <a
+                      href="https://github.com/a-donati"
+                      class="text-white"
+                      target="_blank"
+                    >
+                      <i class="fab fa-github fa-3x"></i>
+                    </a>
+                  </div>
                 </div>
-                <div class="col"> 
-                    <li><a href="https://www.linkedin.com/in/angela-d-617575b0" class="text-muted">
-                        <i class="fab fa-linkedin fa-3x"></i> LinkedIn
-                    </a></li>
+              </div>
+              <!-- tagline -->
+              <div class="p-4 bg-light">Full Stack Web Developer</div>
+              <!-- collapsable buttons -->
+              <div>
+                <div
+                  class="d-flex flex-row text-white align-items-stretch text-center"
+                >
+                  <div
+                    class="port-item p-4 home"
+                    data-toggle="collapse"
+                    data-target="#home"
+                  >
+                    <i class="fas fa-home fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">Home</span>
+                  </div>
+                  <div
+                    class="port-item p-4 resume"
+                    data-toggle="collapse"
+                    data-target="#resume"
+                  >
+                    <i class="fas fa-graduation-cap fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">Resume</span>
+                  </div>
+                  <div
+                    class="port-item p-4 work"
+                    data-toggle="collapse"
+                    data-target="#work"
+                  >
+                    <i class="fas fa-folder-open fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">Projects</span>
+                  </div>
+                  <div
+                    class="port-item p-4 contact"
+                    data-toggle="collapse"
+                    data-target="#contact"
+                  >
+                    <i class="fas fa-envelope fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">Contact</span>
+                  </div>
                 </div>
-                <div class="col">
-                    <li><a href="mailto: angeladonati93@gmail.com" class="text-muted">
-                        <i class="fas fa-envelope fa-3x"></i> Email
-                    </a></li>
-                
-                </div>
-                <div class="col">
-                    <li><a href="./images/2022resume.docx.pdf" target="_blank" class="text-muted">
-                        <i class="fas fa-cloud fa-3x"></i> Resume
-                    </a></li>
-                </div>
-                </div>
-                <hr>
+              </div>
             </div>
+          </div>
+        </div>
+      </header>
+      <!-- end header -->
+
+      <!-- home -->
+      <div id="home" class="collapse show">
+        <div class="card card-body home text-white py-5">
+          <h2>Welcome to my portfolio page</h2>
+        </div>
+        <div class="card card-body py-5">
+          <p>
+            I am a full stack web developer currently enrolled in University of
+            New Hampshire's coding bootcamp. I have always been drawn to
+            technology from a young age and have spent most of my life on the
+            computer. With having my Bachelor's in Environmental Studies, I plan
+            to combine my interest in environmental preservation with my
+            developer skills. Thanks for looking!
+          </p>
+          <small
+            >Furby placeholder image found
+            <a href="https://www.furaffinity.net/view/25484646/">here</a
+            >.</small
+          >
+          <hr />
+          <h3>Programming Languages & Tools</h3>
+
+          <p>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+              target="_blank"
+            >
+              <i class="fab fa-html5 fa-3x"></i
+            ></a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+              <i class="fab fa-css3-alt fa-3x"></i
+            ></a>
+            <i class="fab fa-bootstrap"></i>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              target="_blank"
+            >
+              <i class="fab fa-js-square fa-3x"></i
+            ></a>
+            <a href="https://nodejs.org/en/" target="_blank">
+              <i class="fab fa-node-js fa-3x"></i
+            ></a>
+            <!-- <i class="fab fa-mysql fa-3x"></i> -->
+            <a href="https://www.mysql.com/">
+              <img
+                src="images/mysql-original-wordmark.svg"
+                target="_blank"
+                height="40px"
+                width="40px"
+            /></a>
+            <a href="https://www.mongodb.com" target="_blank"
+              ><img
+                src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/f994c418a134b58c4aec11152f6a4a33fa89da26/databases/mongodb.svg"
+                alt="mongodb"
+                width="60"
+                height="60"
+            /></a>
+          </p>
+
+          <hr />
+        </div>
+      </div>
+      <!-- home end -->
+
+      <!-- resume -->
+      <div id="resume" class="collapse">
+        <div class="card card-body resume text-white py-5">
+          <h2>Resume</h2>
         </div>
 
+        <div class="card card-body py-5">
+          <h3>Education and Work History:</h3>
+          <p></p>
+          <div class="card-deck text-center">
+            <!-- card one -->
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Merrimack College</h4>
+                <p class="card-text">
+                  <img
+                    src="./images/mc.jpeg"
+                    alt="Merrimack College Logo - A shield divided into four sections by a cross. The top left and bottom right is white, while the top right and bottom left is yellow."
+                    class="img-fluid"
+                    id="images"
+                  />
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  BA Environmental Studies
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">North Andover, MA</p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Graduated: 2016</h6>
+              </div>
+            </div>
+            <!-- card two -->
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">University of New Hampshire</h4>
+                <p class="card-text">
+                  <img
+                    src="./images/unh.png"
+                    alt="University of New Hampshire logo - a shield shape divided into two sections, the left is white, the right is blue, with 'NH' in the center. The text 'University of New Hampshire' is beneath the shield."
+                    class="img-fluid"
+                    id="images"
+                  />
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  FullStack Coding Bootcamp
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">Virtual</p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Estimated Completion: June 2022</h6>
+              </div>
+            </div>
+            <!-- card three -->
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Massachusetts DCR</h4>
+                <p class="card-text">
+                  <img
+                    src="./images/MAseal.jpeg"
+                    alt="Massachusetts State Seal - Circle with  a blue shield in the center, a Native American stands in the interior of the shield. A white star is to the left of their head. The coat of arms is encircled by the latin text 'Sigillum Reipublicæ Massachusettensis'"
+                    class="img-fluid"
+                    id="images"
+                  />
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">Park Ranger</p>
+                <p class="p-2 mb-3 bg-dark text-white">Boston, MA</p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">2017-2022</h6>
+              </div>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
 
-        <!-- footer -->
-        <footer id="main-footer" class="p-5 bg-dark text-white">
+      <!-- work -->
+      <div id="work" class="collapse">
+        <div class="card card-body work text-white py-5">
+          <h2>My Projects</h2>
+        </div>
+
+        <section class="bg-light pt-5 pb-5 shadow-sm">
+          <div class="container">
+            <div class="row pt-5">
+              <div class="col-12">
+                <h3 class="border-bottom mb-4">Projects / Repo</h3>
+              </div>
+            </div>
             <div class="row">
-                <div class="col-md-6">
-                    <a href="./images/2022resume.docx.pdf" target="_blank" class="btn btn-outline-light">
-                        <i class="fas fa-cloud"> Download Resume</i>
-                    </a>
+              <!--project 1-->
+              <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+                <div class="card">
+                  <img
+                    src="./images/travel-app-screenshot.png"
+                    class="card-img-top"
+                    alt="Card Image"
+                  />
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">
+                      Travel App
+                      <a
+                        href="https://github.com/a-donati/GroupProjectRepo"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </h5>
+                    <p class="card-text mb-4">
+                      App that uses an APIs to return quick country/capital
+                      stats, includes current weather forecast for the day,
+                      country's flag, capital, population, currency and official
+                      language.
+                    </p>
+                    <a
+                      href="https://github.com/a-donati/GroupProjectRepo"
+                      target="_blank"
+                      class="btn btn-primary mt-auto align-self-start"
+                      >Deployed site</a
+                    >
+                  </div>
                 </div>
+              </div>
+              <!--project 2-->
+              <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+                <div class="card">
+                  <img
+                    src="./images/pw-gen-screenshot.png"
+                    class="card-img-top"
+                    alt="Card Image"
+                  />
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">
+                      Password Generator
+                      <a
+                        href="https://github.com/a-donati/password-generator"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </h5>
+                    <p class="card-text mb-4">
+                      Password generator using javascript - generate a
+                      randomized password using user selected criteria
+                    </p>
+                    <a
+                      href="https://a-donati.github.io/password-generator/"
+                      target="_blank"
+                      class="btn btn-primary mt-auto align-self-start"
+                      >Deployed site</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- project 3 -->
+              <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+                <div class="card">
+                  <img
+                    src="./images/weather-app-screenshot.png"
+                    class="card-img-top"
+                    alt="Card Image"
+                  />
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">
+                      Weather Dashboard
+                      <a
+                        href="https://github.com/a-donati/weather-dashboard"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </h5>
+                    <p class="card-text mb-4">
+                      Weather dashboard that displays current forecast along
+                      with a 5 day forecast of location.
+                    </p>
+                    <a
+                      href="https://a-donati.github.io/weather-dashboard"
+                      target="_blank"
+                      class="btn btn-primary mt-auto align-self-start"
+                      >Deployed site</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- project 4 -->
+              <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+                <div class="card">
+                  <img
+                    src="./images/samplereadmedemo.gif"
+                    class="card-img-top"
+                    alt="Card Image"
+                  />
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">
+                      README Generator
+                      <a
+                        href="https://github.com/a-donati/readme-generator"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </h5>
+                    <p class="card-text mb-4">
+                      README generator created using node.js and inquirer
+                      package. Generates basic README.md template based on user
+                      input.
+                    </p>
+                    <a
+                      href="https://github.com/a-donati/readme-generator"
+                      target="_blank"
+                      class="btn btn-primary mt-auto align-self-start"
+                      >Repository</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- project 5 -->
+              <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+                <div class="card">
+                  <img
+                    src="./images/team-profile-generator-screenshot.png"
+                    height="200px"
+                    width="100px"
+                    class="card-img-top"
+                    alt="Card Image"
+                  />
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">
+                      Team Profile Generator
+                      <a
+                        href="https://github.com/a-donati/team-profile-generator"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </h5>
+                    <p class="card-text mb-4">
+                      A team profile generator created using node.js to help
+                      automate creating an employee roster. User will be
+                      prompted to enter employee information, which will be used
+                      to generate a template to display the input.
+                    </p>
+                    <a
+                      href="https://github.com/a-donati/team-profile-generator"
+                      target="_blank"
+                      class="btn btn-primary mt-auto align-self-start"
+                      >Repository</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- project 6 -->
+              <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+                <div class="card">
+                  <img
+                    src="./images/employee-tracker.png"
+                    height="200px"
+                    width="100px"
+                    class="card-img-top"
+                    alt="Card Image"
+                  />
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">
+                      Employee Tracker
+                      <a
+                        href="https://github.com/a-donati/employee-tracker"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </h5>
+                    <p class="card-text mb-4">
+                      Command line application that allows the user to manage
+                      employees within their organization. The database consists
+                      of three tables, departments, roles, and employees. User
+                      is able to view and modify all employees, roles, and
+                      departments. The application uses Node.js, Inquirer, MySQL
+                    </p>
+                    <a
+                      href="https://github.com/a-donati/employee-tracker"
+                      target="_blank"
+                      class="btn btn-primary mt-auto align-self-start"
+                      >Repository</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- project 7 -->
+              <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+                <div class="card">
+                  <img
+                    src="./images/e-commerce-demo.gif"
+                    height="200px"
+                    width="100px"
+                    class="card-img-top"
+                    alt="Card Image"
+                  />
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">
+                      E-commerce Backend
+                      <a
+                        href="https://github.com/a-donati/e-commerce-back-end"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </h5>
+                    <p class="card-text mb-4">
+                      Express.js API that uses Sequelize to interact with a
+                      MySQL database that can be used as the back end for an
+                      e-commerce website. The database includes tables for
+                      products, categories, tags and product tags. User can get,
+                      create, update and delete categories, products and tags.
+                      Project was created using node.js, express, sequelize, and
+                      MySQL.
+                    </p>
+                    <a
+                      href="https://github.com/a-donati/e-commerce-back-end"
+                      target="_blank"
+                      class="btn btn-primary mt-auto align-self-start"
+                      >Repository</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- project 8 -->
+              <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+                <div class="card">
+                  <img
+                    src="./images/updated-screen-shot.png"
+                    height="200px"
+                    width="100px"
+                    class="card-img-top"
+                    alt="Card Image"
+                  />
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">
+                      Practice Room
+                      <a
+                        href="https://github.com/a-donati/PracticeRoom"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </h5>
+                    <p class="card-text mb-4">
+                        Collaborative effort to create a website for music enthusiasts to discuss music, tune their instrument, and discover new songs. The front end was created using HTML/CSS/Boostrap with Handlebars.js as the view engine. Back end was created with node.js with express and utilizes a mySQL database.
+                    </p>
+                    <a
+                      href="http://tranquil-eyrie-98828.herokuapp.com"
+                      target="_blank"
+                      class="btn btn-primary mt-auto align-self-start"
+                      >Deployed site</a
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
-        </footer>
-        <!-- end container -->
+          </div>
+        </section>
+      </div>
+      <!-- contact -->
+      <div id="contact" class="collapse">
+        <div class="card card-body contact text-white py-5">
+          <h2>Contact</h2>
+          <!-- <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!</p> -->
+        </div>
+
+        <div class="card card-body py-5">
+          <div class="d-flex justify-content-center">
+            <div class="col">
+              <a
+                href="https://github.com/a-donati"
+                class="text-muted"
+                target="_blank"
+              >
+                <i class="fab fa-github fa-3x"></i> Github
+              </a>
+            </div>
+            <div class="col">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/angela-d-617575b0"
+                  class="text-muted"
+                >
+                  <i class="fab fa-linkedin fa-3x"></i> LinkedIn
+                </a>
+              </li>
+            </div>
+            <div class="col">
+              <li>
+                <a href="mailto: angeladonati93@gmail.com" class="text-muted">
+                  <i class="fas fa-envelope fa-3x"></i> Email
+                </a>
+              </li>
+            </div>
+            <div class="col">
+              <li>
+                <a
+                  href="./images/angela-donati-resume.docx.pdf"
+                  target="_blank"
+                  class="text-muted"
+                >
+                  <i class="fas fa-cloud fa-3x"></i> Resume
+                </a>
+              </li>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer id="main-footer" class="p-5 bg-dark text-white">
+        <div class="row">
+          <div class="col-md-6">
+            <a
+              href="./images/angela-donati-resume.docx.pdf"
+              target="_blank"
+              class="btn btn-outline-light"
+            >
+              <i class="fas fa-cloud"> Download Resume</i>
+            </a>
+          </div>
+        </div>
+      </footer>
+      <!-- end container -->
     </div>
 
-
     <!-- script tags -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
-        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
     <script>
-        // click collapse, it will hide, new section will open
-        // anything with class of collapse will close
-        $('.port-item').click(function () {
-            $('.collapse').collapse('hide');
-        });
+      // click collapse, it will hide, new section will open
+      // anything with class of collapse will close
+      $(".port-item").click(function () {
+        $(".collapse").collapse("hide");
+      });
     </script>
-</body>
-
+  </body>
 </html>
